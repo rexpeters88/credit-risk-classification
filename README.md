@@ -1,13 +1,16 @@
 # credit-risk-classification
 
+All analises and models are completed in the 'credit_risk_classification.ipynb', located on the main branch.
+
+
 Project Report 
 
 Overview of the Analysis:
-valuate the performace of a logistic regression model that is designed to predict credit risk.
+Evaluate the performance of a logistic regression model that is designed to predict credit risk.
 
 
 Purpose of the analysis:
-The goal of the anlysis is to analyze how well the logistic regression model was abke to classify loans as high-risk or low-risk.
+The goal of the analysis is to analyze how well the logistic regression model was able to classify loans as high-risk or low-risk.
 
 Dataset Columns:
 1. loan_size
@@ -41,5 +44,7 @@ Class 1 (High-Risk): 0.94
 
 Summary:
 The model achieved an overall accuracy of 99%, indicating it performed extremely well. However, its precision was much higher when predicting low-risk loans relative to high-risk loans. This indicates that while the model is a good start, further improvements are important in order to increase its identification of high-risk loans, which pose greater threats to loan providers. 
+
+
 
 
