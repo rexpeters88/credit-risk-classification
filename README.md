@@ -3,21 +3,21 @@
 Project Report 
 
 Overview of the Analysis:
-This analysis evaluates the performance of a logistic regression model in predicting credit risk. In particular, the model classified loans as either high-risk or low-risk, based on features included in the primary dataset. 
+valuate the performace of a logistic regression model that is designed to predict credit risk.
 
 
 Purpose of the analysis:
-The dataset contains financial information about loans and borrowers, and the goal of the analysis is to predict whether a loan is high-risk or low-risk. The target variable for prediction is loan_status, which indicates the loan's risk category.
+The goal of the anlysis is to analyze how well the logistic regression model was abke to classify loans as high-risk or low-risk.
 
 Dataset Columns:
-1. loan_size: The size of the loan issued (numerical).
-2. interest_rate: The interest rate charged on the loan (numerical).
-3. borrower_income: The annual income of the borrower (numerical).
-4. debt_to_income: The borrower's debt-to-income ratio, calculated as total debt divided by income (numerical).
-5. num_of_accounts: The number of financial accounts (e.g., credit cards, loans) the borrower has (numerical).
-6. derogatory_marks: The number of negative marks (e.g., late payments, defaults) on the borrower’s credit history (numerical).
-7. total_debt: The total outstanding debt of the borrower (numerical).
-8. loan_status: The target variable indicating the loan’s risk level:
+1. loan_size
+2. interest_rate
+3. borrower_income
+4. debt_to_income
+5. num_of_accounts
+6. derogatory_marks
+7. total_debt
+8. loan_status (target variable):
       a. 0: Low-risk loan
       b. 1: High-risk loan
 
@@ -40,6 +40,6 @@ Class 1 (High-Risk): 0.94
 
 
 Summary:
-The logistic regression model performed exceptionally well, achieving an overall accuracy of 99%. It showed perfect precision (1.00) and high recall (0.99) for low-risk loans (Class 0), while maintaining strong performance for high-risk loans (Class 1) with precision of 0.84 and recall of 0.94. This indicates that while the model is highly reliable for predicting low-risk loans, there is still room for improvement in terms of identifying high-risk loans. Furthermore, given that identifying high-risk loans (Class 1) is more critical, additional adjustments (e.g., oversampling, adjusting class weights) could further improve performance for this class. 
+The model achieved an overall accuracy of 99%, indicating it performed extremely well. However, its precision was much higher when predicting low-risk loans relative to high-risk loans. This indicates that while the model is a good start, further improvements are important in order to increase its identification of high-risk loans, which pose greater threats to loan providers. 
 
 
